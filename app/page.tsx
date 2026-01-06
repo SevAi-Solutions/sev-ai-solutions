@@ -3,6 +3,7 @@ import StatsStrip from "../components/sections/StatsStrip";
 import Proof from "../components/sections/Proof";
 import HowItWorks from "../components/sections/HowItWorks";
 import HowWeWork from "../components/sections/HowWeWork";
+import CTA from "../components/sections/CTA";
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
       <Proof />
       <HowItWorks />
       <HowWeWork />
-      {/* Next: CTA */}
+      <CTA />
     </main>
   );
 }
