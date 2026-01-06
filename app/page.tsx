@@ -1,6 +1,7 @@
 import Hero from "../components/sections/Hero";
 import StatsStrip from "../components/sections/StatsStrip";
 import Proof from "../components/sections/Proof";
+import HowItWorks from "../components/sections/HowItWorks";
 
 export default function HomePage() {
   return (
@@ -8,7 +9,8 @@ export default function HomePage() {
       <Hero />
       <StatsStrip />
       <Proof />
-      {/* Next: HowItWorks / HowWeWork / CTA */}
+      <HowItWorks />
+      {/* Next: HowWeWork / CTA */}
     </main>
   );
 }
